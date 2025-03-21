@@ -4,9 +4,9 @@ import {HomeIcon, NotebookIcon} from 'lucide-react';
 export const DATA = {
   name: 'Sabi Mantock',
   initials: 'SM',
-  url: 'https://dillion.io',
+  url: 'https://sabimantock.vercel.app/',
   location: 'Wolverhampton, UK',
-  locationLink: 'https://www.google.com/maps/place/sanfrancisco',
+  locationLink: 'https://www.google.com/maps/place/Wolverhampton',
   description:
     'A frontend and mobile developer with over 3 years of experience in baseline technologies such as HTML, CSS, JavaScript and comprehensive frameworks like React, React-Native, and Node.js. ',
   summary:

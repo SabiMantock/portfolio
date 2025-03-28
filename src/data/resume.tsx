@@ -152,7 +152,7 @@ export const DATA = {
   ],
   education: [
     {
-      school: 'Mircoverse',
+      school: 'Microverse',
       href: 'https://www.microverse.org/',
       degree: 'Full-Stack Web Development',
       logoUrl: '/ml.png',
@@ -187,7 +187,7 @@ export const DATA = {
   projects: [
     {
       title: 'Cargo - Fast, Easy Deliveries',
-      // href: 'http://onelink.to/cargoapp',
+      href: 'https://www.youtube.com/embed/X-K0BuuEqf4',
       // dates: 'Jan 2024 - Feb 2024',
       active: true,
       description:
@@ -213,7 +213,7 @@ export const DATA = {
     },
     {
       title: 'PayClick',
-      // href: 'https://magicui.design',
+      href: 'https://www.youtube.com/embed/J54HrYJXQ9I',
       // dates: 'June 2023 - Present',
       active: true,
       description:
@@ -237,7 +237,7 @@ export const DATA = {
     },
     {
       title: 'TaskMaster',
-      // href: 'https://llm.report',
+      href: 'https://www.youtube.com/embed/c5X6Mz-Akuk',
       // dates: 'April 2023 - September 2023',
       active: true,
       description:
@@ -261,7 +261,7 @@ export const DATA = {
     },
     {
       title: 'HEY-CONNECT',
-      // href: 'https://automatic.chat',
+      href: 'https://hey-connect-client.onrender.com/',
       // dates: 'April 2023 - March 2024',
       active: true,
       description:

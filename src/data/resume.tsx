@@ -90,7 +90,7 @@ export const DATA = {
         'At Adaptive Computer Solutions, I provided technical support for internal systems, ensuring operational continuity while contributing to front-end maintenance. My role involved collaborating with cross-functional teams to troubleshoot issues, enhance workflows, and improve user experiences. Additionally, I led initiatives to identify and implement automation opportunities to improve efficiency.',
     },
     {
-      company: 'BlackLabs',
+      company: 'Black Labs',
       badges: [],
       href: 'https://blacklabsinc.com/',
       location: 'Remote',
@@ -99,7 +99,7 @@ export const DATA = {
       start: 'Aug 2020',
       end: 'May 2023',
       description:
-        'BlackLabs was one of my first experiences building production web, mobile, and server applications. I worked on designing and developing three cross-platform mobile clients that interfaced via a Node.js server. The project, led by Cargo Deliveries, aimed to create a hub that efficiently matched delivery demand with available couriers. My role spanned frontend and server-side development, along with contributing to the system’s functional and business requirements.',
+        'Black Labs was one of my first experiences building production web, mobile, and server applications. I worked on designing and developing three cross-platform mobile clients that interfaced via a Node.js server. The project, led by Cargo Deliveries, aimed to create a hub that efficiently matched delivery demand with available couriers. My role spanned frontend and server-side development, along with contributing to the system’s functional and business requirements.',
     },
     // {
     //   company: 'Nvidia',

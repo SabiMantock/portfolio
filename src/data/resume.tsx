@@ -207,9 +207,8 @@ export const DATA = {
       //     icon: <Icons.globe className='size-3' />,
       //   },
       // ],
-      image: '',
-      video:
-        'https://d.benlotus.com/snapsynopsis/2025-03-21_Fy2b2H/Cargo_-_Fast,_Easy_Deliveries.mp4',
+      image: '/cargo_thumbnail.png',
+      video: '',
     },
     {
       title: 'PayClick',
@@ -231,9 +230,8 @@ export const DATA = {
       //     icon: <Icons.github className='size-3' />,
       //   },
       // ],
-      image: '',
-      video:
-        'https://d.benlotus.com/snapsynopsis/2025-03-21_NCf1my/PayClick_Mobile_App_Video_Demo.mp4',
+      image: '/PayClick.png',
+      video: '',
     },
     {
       title: 'TaskMaster',
@@ -255,9 +253,8 @@ export const DATA = {
       //     icon: <Icons.github className='size-3' />,
       //   },
       // ],
-      image: '',
-      video:
-        'https://d.benlotus.com/snapsynopsis/2025-03-21_ybsce7/TaskMaster_Mobile_App_Video_Demo.mp4',
+      image: '/TaskMaster.png',
+      video: '',
     },
     {
       title: 'HEY-CONNECT',

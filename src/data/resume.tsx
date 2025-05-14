@@ -10,7 +10,7 @@ export const DATA = {
   description:
     'A frontend and mobile developer with over 3 years of experience in baseline technologies such as HTML, CSS, JavaScript and comprehensive frameworks like React, React-Native, and Node.js. ',
   summary:
-    'I have over three years of experience as a frontend and mobile developer, specializing in React, React Native, and Node.js. Throughout my career, I’ve worked on projects ranging from small web apps to large enterprise systems, focusing on user-centered design and secure development. I’m passionate about learning new technologies, solving complex problems, and building scalable applications.',
+    'I have over two years of experience as a frontend and mobile developer, specializing in React, React Native, and Node.js. Throughout my career, I’ve worked on projects ranging from small web apps to large enterprise systems, focusing on user-centered design and secure development. I’m passionate about learning new technologies, solving complex problems, and building scalable applications.',
   avatarUrl: '/profile_pic.jpg',
   skills: [
     'React',
@@ -96,23 +96,23 @@ export const DATA = {
       location: 'Remote',
       title: 'Frontend Developer',
       logoUrl: '/bl.png',
-      start: 'Aug 2020',
+      start: 'Sep 2021',
       end: 'May 2023',
       description:
         'Black Labs was one of my first experiences building production web, mobile, and server applications. I worked on designing and developing three cross-platform mobile clients that interfaced via a Node.js server. The project, led by Cargo Deliveries, aimed to create a hub that efficiently matched delivery demand with available couriers. My role spanned frontend and server-side development, along with contributing to the system’s functional and business requirements.',
     },
-    // {
-    //   company: 'Nvidia',
-    //   href: 'https://nvidia.com/',
-    //   badges: [],
-    //   location: 'Santa Clara, CA',
-    //   title: 'Software Engineer',
-    //   logoUrl: '/nvidia.png',
-    //   start: 'January 2020',
-    //   end: 'April 2020',
-    //   description:
-    //     'Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.',
-    // },
+    {
+      company: 'Ent Transport',
+      href: '#',
+      badges: [],
+      location: 'Tema, Ghana',
+      title: 'Operations Officer',
+      logoUrl: 'Ent',
+      start: 'Dec 2017',
+      end: 'June 2020',
+      description:
+        'led fuel-saving tech deployments, digitized dispatch processes, and implemented a cost-efficient fleet maintenance strategy.',
+    },
     // {
     //   company: 'Splunk',
     //   href: 'https://splunk.com',
@@ -187,7 +187,7 @@ export const DATA = {
   projects: [
     {
       title: 'Cargo - Fast, Easy Deliveries',
-      href: 'https://www.youtube.com/embed/X-K0BuuEqf4',
+      href: 'https://youtu.be/X-K0BuuEqf4?si=SVWC7MyC48wBkp_A',
       // dates: 'Jan 2024 - Feb 2024',
       active: true,
       description:
@@ -212,7 +212,7 @@ export const DATA = {
     },
     {
       title: 'PayClick',
-      href: 'https://www.youtube.com/embed/J54HrYJXQ9I',
+      href: 'https://youtu.be/J54HrYJXQ9I?si=cvYH3mOgLM7uIDqc',
       // dates: 'June 2023 - Present',
       active: true,
       description:
@@ -235,7 +235,7 @@ export const DATA = {
     },
     {
       title: 'TaskMaster',
-      href: 'https://www.youtube.com/embed/c5X6Mz-Akuk',
+      href: 'https://youtu.be/c5X6Mz-Akuk?si=Lk6budEyCNMjkqRR',
       // dates: 'April 2023 - September 2023',
       active: true,
       description:

@@ -1,26 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* { box-sizing: border-box; }
+html { background:#111; scroll-behavior:smooth; }
+body { margin:0; color:#f5f1e8; font-family:"Space Grotesk",system-ui,sans-serif; }
+button, a { -webkit-tap-highlight-color:transparent; }
+button:focus-visible, a:focus-visible { outline:2px solid #345cff; outline-offset:6px; }
+@keyframes introDraw { from { stroke-dashoffset:1; } to { stroke-dashoffset:0; } }
+@keyframes driftA { 50% { transform:translate(12px,-18px) rotate(8deg); } }
+@keyframes driftB { 50% { transform:translate(-14px,14px) rotate(-12deg); } }
+@keyframes driftC { 50% { transform:translate(8px,12px); } }
+@keyframes scrollLine { 50% { transform:scaleY(.45); opacity:.4; } }
+@keyframes orbitA { 50% { transform:translate(10px,-12px) rotate(6deg); } }
+@keyframes orbitB { 50% { transform:translate(-10px,8px); } }
+@keyframes orbitC { 50% { transform:translate(-12px,-8px) rotate(-8deg); } }
+@keyframes orbitD { 50% { transform:translate(8px,10px); } }
+@keyframes billyRise { from { opacity:0; transform:translateY(32px) rotate(-6deg); } to { opacity:1; transform:translateY(0) rotate(-2deg); } }
+@keyframes billyFloat { 0%,100% { transform:translateY(0) rotate(-2deg); } 50% { transform:translateY(-10px) rotate(0deg); } }
+@keyframes lineAppear { to { stroke-dashoffset:0; opacity:1; } }
+@keyframes nodePulse { 50% { opacity:.45; } }
+@keyframes ticker { to { transform:translateX(-50%); } }
+@media(max-width:480px) {
+  header nav { gap:16px !important; }
+  .proj-row { padding-inline:20px !important; }
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media(prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  *,*::before,*::after { animation:none !important; transition:none !important; }
+  .intro-screen { display:none; }
+  svg animate { display:none; }
 }

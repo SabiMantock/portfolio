@@ -35,7 +35,7 @@ export function Footer() {
           transition:"opacity 0.6s ease 0.2s",
         }}>
           <FooterLink href="https://github.com/sabimantock" external>GitHub ↗</FooterLink>
-          <FooterLink href="https://linkedin.com/in/sabimantock" external>LinkedIn ↗</FooterLink>
+          <FooterLink href="https://linkedin.com/in/sabi-mantock/" external>LinkedIn ↗</FooterLink>
           <FooterLink href="mailto:sabimantock@gmail.com">sabimantock@gmail.com</FooterLink>
         </div>
 
@@ -54,4 +54,3 @@ export function Footer() {
     </footer>
   );
 }
-

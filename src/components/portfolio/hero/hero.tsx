@@ -72,8 +72,8 @@ export function Hero({ ready }: { ready: boolean }) {
           transform: ready ? "translateY(0)" : "translateY(16px)",
           transition: "opacity 0.6s ease 0.65s, transform 0.6s ease 0.65s",
         }}>
-          React · React Native · Next.js · TypeScript · Node.js.
-          <br />Building interfaces that do what people expect.
+          React · Next.js · TypeScript · Node.js.
+          <br />Building production web applications and reusable interfaces that make everyday workflows simpler.
         </p>
       </div>
 
@@ -98,4 +98,3 @@ export function Hero({ ready }: { ready: boolean }) {
     </section>
   );
 }
-

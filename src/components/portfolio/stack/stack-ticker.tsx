@@ -2,8 +2,9 @@
 
 import { dim, edge, sg } from "@/components/portfolio/tokens";
 
-const STACK = ["React","React Native","Next.js","TypeScript","Node.js","Expo",
-               "PostgreSQL","Firebase","Stripe","Mapbox","Tailwind CSS","Git","GitHub","JavaScript"];
+const STACK = ["React","Next.js","TypeScript","JavaScript","Node.js","Redux Toolkit",
+               "React Query","Tailwind CSS","HTML5","CSS3","Python","Ruby on Rails",
+               "MySQL","PostgreSQL","Git","GitHub","Azure DevOps","CI/CD","Prometheus","Grafana"];
 
 export function StackTicker() {
   const items = [...STACK, ...STACK];
@@ -30,4 +31,3 @@ export function StackTicker() {
     </section>
   );
 }
-

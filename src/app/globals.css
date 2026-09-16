@@ -2,7 +2,8 @@
 @import "tailwindcss";
 
 * { box-sizing: border-box; }
-html { background:#111; scroll-behavior:smooth; }
+/* Keep navigation targets below the 56px fixed header, with 16px breathing room. */
+html { background:#111; scroll-behavior:smooth; scroll-padding-top:72px; }
 body { margin:0; color:#f5f1e8; font-family:"Space Grotesk",system-ui,sans-serif; }
 button, a { -webkit-tap-highlight-color:transparent; }
 button:focus-visible, a:focus-visible { outline:2px solid #345cff; outline-offset:6px; }

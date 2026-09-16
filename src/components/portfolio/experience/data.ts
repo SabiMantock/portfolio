@@ -23,7 +23,7 @@ export const EXP = [
     company:"Ent Transport", title:"Operations Manager", period:"Oct 2018 – Sep 2020",
     notes:[
       "Managed a two-truck fleet and seven personnel, applying structured problem-solving to daily operations.",
-      "Introduced vehicle tracking and trip-data systems that improved planning and cut maintenance costs by over £13,000.",
+      "Implemented vehicle tracking and trip-data systems to optimise fleet planning and deliver measurable savings in maintenance costs.",
     ],
   },
 ];
